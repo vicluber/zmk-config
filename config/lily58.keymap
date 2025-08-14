@@ -4,16 +4,25 @@
  * SPDX-License-Identifier: MIT
  */
 
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500 // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20 // default: 10
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500 // default: 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 20 // default: 10
-
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        borrarbackspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <31 32>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
