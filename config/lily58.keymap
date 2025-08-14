@@ -21,6 +21,11 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <31 32>;
         };
+
+        Arrobaaltizq {
+            bindings = <&kp RA(N2)>;
+            key-positions = <50 2>;
+        };
     };
 
     keymap {
