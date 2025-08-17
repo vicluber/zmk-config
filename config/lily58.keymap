@@ -95,11 +95,11 @@
 
         layer_3 {
             bindings = <
-&kp K_MUTE  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &trans  &trans  &trans                    &trans            &trans          &trans            &trans     &trans    &trans
-&trans      &trans             &trans           &trans  &trans  &trans                    &kp DOLLAR        &kp LBKT        &kp ASTERISK      &kp ASTRK  &kp STAR  &trans
-&trans      &trans             &trans           &trans  &trans  &trans                    &kp LESS_THAN     &kp UNDERSCORE  &kp PIPE          &trans     &trans    &trans
-&trans      &trans             &trans           &trans  &trans  &trans  &trans    &trans  &kp GREATER_THAN  &kp TILDE       &kp GREATER_THAN  &trans     &trans    &trans
-                                                &trans  &trans  &trans  &trans    &trans  &trans            &trans          &trans
+&kp K_MUTE  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans                    &trans            &trans          &trans            &trans     &trans    &trans
+&trans      &trans             &trans           &trans                &trans                &trans                    &kp DOLLAR        &kp LBKT        &kp ASTERISK      &kp ASTRK  &kp STAR  &trans
+&trans      &trans             &trans           &trans                &trans                &trans                    &kp LESS_THAN     &kp UNDERSCORE  &kp PIPE          &trans     &trans    &trans
+&trans      &trans             &trans           &trans                &trans                &trans  &trans    &trans  &kp GREATER_THAN  &kp TILDE       &kp GREATER_THAN  &trans     &trans    &trans
+                                                &trans                &trans                &trans  &trans    &trans  &trans            &trans          &trans
             >;
         };
     };
