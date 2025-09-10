@@ -94,11 +94,11 @@
 
         layer_3 {
             bindings = <
-&kp K_MUTE  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans                    &trans  &trans  &trans  &trans  &trans  &kp LS(LG(PRINTSCREEN))
-&trans      &trans             &trans           &trans                &trans                &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans             &trans           &trans                &trans                &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans             &trans           &trans                &trans                &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                &trans                &trans                &trans  &trans    &trans  &trans  &trans  &trans
+&kp K_MUTE  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans                          &trans  &trans  &trans  &trans  &trans  &kp LS(LG(PRINTSCREEN))
+&trans      &trans             &trans           &trans                &trans                &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans             &trans           &trans                &trans                &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR  &bt BT_SEL 0       &bt BT_SEL 1     &bt BT_SEL 2          &bt BT_SEL 3          &bt BT_SEL 4  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                &trans                &trans                &trans        &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
